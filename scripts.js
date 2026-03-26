@@ -70,7 +70,15 @@ btn8.onclick = () => {
 }
 
 // 4
-
+let yellow_square = document.getElementsByClassName("yellow_square")[0];
+let ppp = document.createElement("p")
+ppp.textContent = "наведено"
+yellow_square.addEventListener("mouseover", function() {
+    yellow_square.appendChild(ppp)
+} )
+yellow_square.addEventListener("mouseout", function() {
+    yellow_square.removeChild(ppp)
+} )
 // 5
 // 6
 // 7
