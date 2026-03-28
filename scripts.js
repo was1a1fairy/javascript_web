@@ -79,8 +79,52 @@ yellow_square.addEventListener("mouseover", function() {
 yellow_square.addEventListener("mouseout", function() {
     yellow_square.removeChild(ppp)
 } )
+
 // 5
+let img = document.getElementById("img");
+let btn9 = document.getElementById("btn9");
+
+btn9.onclick = () => {
+    if (img.getAttribute("src") == "img1.jpg") {
+        img.setAttribute("src","img2.jpg");
+    } else {img.setAttribute("src","img1.jpg")}
+}
+
 // 6
+let ul = document.getElementById("mark");
+let btn10 = document.getElementById("btn10");
+let li = document.createElement("li");
+li.innerText = "текст"
+
+btn10.onclick = () => {
+    ul.appendChild(li);
+}
+
 // 7
+let inp7 = document.getElementById("inp7");
+let btn11 = document.getElementById("btn11");
+
+btn11.onclick = () => {
+    let br = document.createElement("br")
+    inp7.after(br)
+    let inp = document.createElement("input");
+    br.after(inp)
+}
+
 // 8
+let ol = document.getElementById("ol");
+let btn12 = document.getElementById("btn12");
+
+btn12.onclick = () => {
+    ol.lastChild.remove();
+}
+
 // 9
+let menu = document.getElementById("menu");
+let elems = menu.querySelectorAll("li")
+
+elems.forEach(elem => {
+    elem.onclick = () => {
+        elem.remove()
+    }
+})
