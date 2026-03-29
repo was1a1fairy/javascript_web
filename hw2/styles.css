@@ -1,0 +1,32 @@
+body{
+    background-color:#6c506c;
+    text-shadow:1px 1px #9f879f;
+}
+
+.square-purple{
+    background-color:#e8e5b9;
+    width:200px;
+    height:200px;
+}
+
+.square-pink{
+    background-color:hotpink;
+    width:200px;
+    height:200px;
+}
+
+input, button{
+    background-color:#e8e5b9;
+}
+
+ul{
+    color:hotpink;
+}
+
+.light-yellow{
+    color:#e8e5b9;
+}
+
+img{
+    width:200px;
+}

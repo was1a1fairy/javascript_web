@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f4dffbf-0015-4972-ac64-aa8e1e8dd4dd" name="Changes" comment="" />
+    <list default="true" id="2f4dffbf-0015-4972-ac64-aa8e1e8dd4dd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hw2/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw2/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw2/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw2/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/hw1/img1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/hw1/img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw1/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/hw1/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +26,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -34,13 +49,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/solom/OneDrive/Рабочий стол/PycharmProjects/javascript_web"
+    "last_opened_file_path": "C:/Users/solom/OneDrive/Рабочий стол/PycharmProjects/javascript_web",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\solom\OneDrive\Рабочий стол\PycharmProjects\javascript_web\hw2" />
+      <recent name="C:\Users\solom\OneDrive\Рабочий стол\PycharmProjects\javascript_web\hw1" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="javascript_web" />
