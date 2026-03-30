@@ -95,7 +95,6 @@ btn8.onclick = () => {
     p2.style.fontSize = (currentFontSize + 1) + "px";
 }
 
-
 // 8
 let img = document.getElementsByClassName("task8")[0]
 
@@ -107,13 +106,84 @@ img.addEventListener("mouseout", function() {
 })
 
 // 9
+let div = document.getElementsByClassName("div")[0];
+let btn9 = document.getElementsByClassName("btn9")[0];
+
+btn9.onclick = () => {
+    if (div.classList.contains("colored")){
+        div.classList.remove("colored");
+        btn9.innerText = "add class";
+    } else {
+        div.classList.add("colored");
+        btn9.innerText = "remove class";
+    }
+}
 
 // 10
 
 // 11
+let dropdownHeader = document.getElementsByClassName('dropdown-header')[0];
+let dropdown = document.getElementsByClassName('dropdown')[0];
+let t = document.createElement("p");
+t.innerText = "этот текст должен поменять цвет";
+dropdown.before(t);
+
+dropdownHeader.addEventListener('click', function() {
+    dropdown.classList.toggle('open');
+});
+
+let dropdownItems = document.getElementsByClassName('dropdown-item');
+Array.from(dropdownItems).forEach(item => {
+    item.addEventListener('click', function() {
+        let selectedColor = this.getAttribute('data-color');
+        let selectedText = this.querySelector('span').textContent;
+        t.style.color = selectedColor;
+        dropdown.classList.remove('open');
+    });
+});
 
 // 12
+let inp4 = document.getElementsByClassName("inp4")[0];
+let inp3 = document.getElementsByClassName("inp3")[0];
+let btn10 = document.getElementsByClassName("btn10")[0];
+
+btn10.onclick = () => {
+    if (isNaN(inp3.value) || isNaN(inp4.value)) {
+        alert("you didn't enter a number((");
+    } else if (inp3.value > inp4.value) {
+        alert(inp3.value);
+    } else if (inp3.value < inp4.value) {
+        alert(inp4.value);
+    } else {
+        alert("numbers are equal");
+    }
+    inp3.value = "";
+    inp4.value = "";
+}
 
 // 13
+let btn11 = document.getElementsByClassName("btn11")[0];
+let p0 = document.getElementsByClassName("0")[0];
+
+btn11.onclick = () => {
+    if (p0.innerText != 10) {
+        p0.innerText = parseInt(p0.innerText) + 1
+    } else {
+        btn11.disabled = False;
+    }
+
+}
 
 // 14
+let btn12 = document.getElementsByClassName("btn12")[0];
+let ul1 = document.createElement("ul")
+
+btn12.onclick = () => {
+    for (let i=0; i<5; i++){
+        let li = document.createElement("li");
+        li.innerText = i + 1;
+        ul1.append(li);
+    }
+}
+
+btn12.after(ul1);
