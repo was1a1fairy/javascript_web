@@ -1,6 +1,17 @@
+
 body{
     background-color:#6c506c;
-    text-shadow:1px 1px #9f879f;
+    text-shadow:1px 0.5px #000000;
+    color:#e3ade3;
+}
+
+div span{
+    color:#000000;
+    text-shadow:none;
+}
+
+h5{
+    margin:20px;
 }
 
 .square-purple{
@@ -104,3 +115,9 @@ img{
   display: block;
 }
 
+.container{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
